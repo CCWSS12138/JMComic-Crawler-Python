@@ -25,3 +25,9 @@ plugins:
         password: ${EMAIL_PASS}
         title: ${EMAIL_TITLE}
         content: ${EMAIL_CONTENT}
+        
+# 下载配置
+download:
+  image:
+    decode: true # JM的原图是混淆过的，要不要还原？默认为true
+    suffix: .jpg # 把图片都转为.jpg格式，默认为null，表示不转换。
